@@ -1,0 +1,18 @@
+git  config --global user.name "用户名"
+git  config --global user.email  "邮箱"
+git  init  建立本地仓库
+git add  文件名  添加到仓库
+git commit 文件吗 存放到仓库
+git status 查看提交情况
+git diff 查看不同
+git log 显示提交情况
+git log --pretty=oneline 只显示一行
+git reset --hard HEAD^ 回退到上一版本
+git reset --hard HEAD^^ 回退到上上一版本
+git reset --hard HEAD~100 回退到上100版本
+git reset --hard HEAD  具体版本号  回退到具体版本
+git reflog  记录了每次命令
+git checkout -- 文件名  回退到缓存区的内容
+ssh-keygen -t rsa -C "16417842@qq.com"  获得ssh
+
+ ssh -T git@github.com   连接
