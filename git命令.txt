@@ -1,8 +1,10 @@
 git  config --global user.name "用户名"
 git  config --global user.email  "邮箱"
-git  init  建立本地仓库
+git  init  建立本地仓库 （初始化）
 git add  文件名  添加到仓库
-git commit 文件吗 存放到仓库
+git add .   添加所有文件到仓库
+git commit  文件吗 -m "描述"     存放到仓库
+git commit  *   -m  “描述”  存放所有文件到仓库
 git status 查看提交情况
 git diff 查看不同
 git log 显示提交情况
@@ -16,6 +18,8 @@ git checkout -- 文件名  回退到缓存区的内容
 ssh-keygen -t rsa -C "16417842@qq.com"  获得ssh
 
  ssh -T git@github.com   连接
-
+git remote add origin  +ssh地址
 git pull origin master 
 git push oirgin master 
+git clone 远程库地址   克隆远程库
+.gitignore  文件内的不会被上传
