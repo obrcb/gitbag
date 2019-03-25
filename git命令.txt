@@ -3,7 +3,7 @@ git  config --global user.email  "邮箱"
 git  init  建立本地仓库 （初始化）
 git add  文件名  添加到仓库
 git add .   添加所有文件到仓库
-git commit  文件吗 -m "描述"     存放到仓库
+git commit   -m "描述"     存放到仓库
 git commit  *   -m  “描述”  存放所有文件到仓库
 git status 查看提交情况
 git diff 查看不同
@@ -20,6 +20,14 @@ ssh-keygen -t rsa -C "16417842@qq.com"  获得ssh
  ssh -T git@github.com   连接
 git remote add origin  +ssh地址
 git pull origin master 
-git push oirgin master 
+git push origin master 
 git clone 远程库地址   克隆远程库
 .gitignore  文件内的不会被上传
+*************分支****************
+git branch  分支名  创建分支
+git checkout 分支名   切换分支
+git branch  查看分支
+git checkout -b 分支名  创建并切换分支
+git branch -d 分支名  删除分支
+git merge 分支名  将 分支内容添加到master分支
+git push origin 分支名  远程仓库推送
