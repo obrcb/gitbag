@@ -31,3 +31,11 @@ git checkout -b 分支名  创建并切换分支
 git branch -d 分支名  删除分支
 git merge 分支名  将 分支内容添加到master分支
 git push origin 分支名  远程仓库推送
+git push origin  --delete  分支名  删除远程仓库分支
+git log --graph 查看分支图
+**********************标签********************
+git tag 标签名 
+git tag  查看说有标签
+git checkout 标签号 跳转版本
+git tag -d 标签吗  删除标签
+git push origin 标签名
